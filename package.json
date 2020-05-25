@@ -24,6 +24,7 @@
     "@ng-bootstrap/ng-bootstrap": "^6.1.0",
     "angular2-fusioncharts": "^1.0.3",
     "bootstrap": "^4.4.0",
+<<<<<<< HEAD
     "canvasjs": "^1.8.3",
     "chart.js": "^2.9.3",
     "chartjs": "^0.3.24",
@@ -31,6 +32,8 @@
 >>>>>>> parent of f248ecb... Statistics added
 =======
 >>>>>>> parent of f248ecb... Statistics added
+=======
+>>>>>>> parent of 00e0e1b... CHarts trial
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
