@@ -41,7 +41,6 @@ export class NgbdModalContent {
     this.data.push({"distance": distance, "duration": duration, "timestamp": new Date()});
     localStorage.setItem("distance",distance);
     localStorage.setItem("duration",duration);
-    localStorage.setItem("datetime",new Date().toUTCString());
     this.activeModal.close('success');
   }
   constructor(public activeModal: NgbActiveModal) {}
@@ -62,7 +61,7 @@ export class SidenavComponent implements OnInit {
     const modalRef = this.modalService.open(NgbdModalContent);
     modalRef.result.then((result)=>{
       if(result==='success'){
-        this.sdata.updateData({"distance":localStorage.getItem("distance"),"duration":localStorage.getItem("duration"),"timestamp":new Date().toUTCString()});
+        this.sdata.updateData({"distance":localStorage.getItem("distance"),"duration":localStorage.getItem("duration"),"timestamp":(new Date().toLocaleDateString()+" at "+new Date().toLocaleTimeString())});
       }
     });
   }
