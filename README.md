@@ -1,5 +1,9 @@
 # JoggingTracker
 
+<h2>Implementation Screenshots:</h2>
+<img src="https://i.ibb.co/25tjYTF/Screenshot-from-2020-05-25-16-49-30.png" />
+<img src="https://i.ibb.co/vCF37gr/Screenshot-from-2020-05-25-16-49-48.png" />
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
